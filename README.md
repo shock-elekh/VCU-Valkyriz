@@ -31,5 +31,5 @@ Le détail des variables, de l'organisation du code est fait dans l'excel situé
 Le manuel de la teensy est dans la documentation.
 La documentation du Bamocar est sur ce drive https://drive.google.com/drive/folders/1ejnI4x0l66PUooj8r0KLAIZRRiR4TCU6
 
-
+## Le VCU au sein du faisceau (pour mémoire)
 ![Le VCU au sein du faisceau](/documentation/faisceau_final_TNN.png)
