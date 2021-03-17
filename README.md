@@ -51,3 +51,14 @@ Il est donc relié:
 ## La librairie FlexCAN
 
 Sa documentation et son github sont situés ici: https://github.com/teachop/FlexCAN_Library
+
+
+
+Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+
