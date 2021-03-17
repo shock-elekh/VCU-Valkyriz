@@ -27,18 +27,27 @@ Bienvenue dans le Git pour la programmation du VCU de Valkyriz (saison 2021)
 ## Code
 Le détail des variables, de l'organisation du code est fait dans l'excel situé dans [ce fichier](https://github.com/shock-elekh/VCU-Valkyriz/tree/main/documentation/code-teensy-vcu.xlsx)
 
+`#include <FlexCAN.h>`
+
+
+
 ## Manuels
 Le manuel de la teensy est dans la documentation.
 La documentation du Bamocar est sur ce drive https://drive.google.com/drive/folders/1ejnI4x0l66PUooj8r0KLAIZRRiR4TCU6
 
-## Le VCU au sein du faisceau (pour mémoire)
-![Le VCU au sein du faisceau](/documentation/faisceau_final_TNN.png)
+## Le VCU au sein du faisceau sur le banc
+![Le VCU au sein du faisceau](/documentation/faisceau-bastie.png)
 
 
 
-Un exemple de code:
+## Le VCU au sein du faisceau sur le véhicule
 
-```
-#include <FlexCAN.h>
-```
+![Le VCU au sein du faisceau](/documentation/faisceau-chaipe.png)
 
+Il est donc relié:
+
+* 
+
+## La librairie FlexCAN
+
+Sa documentation et son github sont situés ici: https://github.com/teachop/FlexCAN_Library
