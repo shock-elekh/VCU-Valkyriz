@@ -33,3 +33,12 @@ La documentation du Bamocar est sur ce drive https://drive.google.com/drive/fold
 
 ## Le VCU au sein du faisceau (pour mémoire)
 ![Le VCU au sein du faisceau](/documentation/faisceau_final_TNN.png)
+
+
+
+Un exemple de code:
+
+```
+#include <FlexCAN.h>
+```
+
