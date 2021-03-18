@@ -50,9 +50,26 @@ Il est donc relié:
 
 ## La librairie FlexCAN
 
-Sa documentation et son github sont situés ici: https://github.com/teachop/FlexCAN_Library
+Sa documentation et son github sont situés ici (Teensy 3.1): https://github.com/teachop/FlexCAN_Library
+
+Et là (Teensy 3.1 à 3.5): https://github.com/collin80/FlexCAN_Library
+
+### La structure des données du type `CAN-message-t`:
+
+`typedef struct CAN_message_t {
+  uint32_t id; // can identifier
+  uint8_t ext; // l'identifiant est étendu
+  uint8_t rtr; // remote transmission request packet type
+  uint8_t len; // longueur des données
+  uint16_t timeout; // en millisecondes, 0 désactivera l'attente `
+
+`  uint8_t buf[8];`
 
 
+
+
+
+## Dump
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -61,4 +78,8 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
+
+
+
+
 
